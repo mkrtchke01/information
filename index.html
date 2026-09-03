@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Простые инструкции по запуску и настройке крипто-ноды: установка, стейкинг и особые монеты.">
+  <title>Информационный — ваш гид по крипто-нодам</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#top" aria-label="Информационный — на главную"><span class="logo-mark">i</span>информационный</a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#install">Установка</a><a href="#setup">Настройка</a><a href="#staking">Стейкинг</a><a href="#coins">Монеты</a>
+    </nav>
+    <a class="header-link" href="#faq">Есть вопросы? <span>→</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>Знания без лишнего шума</p>
+        <h1>Крипто-ноды —<br><em>понятно</em> с первого шага.</h1>
+        <p class="lead">Собрали всё важное об установке, настройке и доходе от стейкинга в одном дружелюбном гайде.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#install">Начать обучение <span>↘</span></a><a class="button button-text" href="#coins">Посмотреть монеты</a></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="signal signal-a"></div><div class="signal signal-b"></div><div class="signal signal-c"></div>
+        <div class="node-card node-main"><span class="node-icon">✦</span><span>ваша нода</span><b>online</b></div>
+        <div class="node-card node-small first"><span>●</span> блок #40291</div>
+        <div class="node-card node-small second"><span>✓</span> reward received</div>
+        <div class="ring ring-one"></div><div class="ring ring-two"></div>
+      </div>
+      <div class="scroll-hint">листайте <span>↓</span></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="section-label">01 — о проекте</p>
+      <div><h2>Не нужно быть<br>разработчиком, чтобы<br><em>начать.</em></h2><p>Разбираем сложные вещи человеческим языком. Вы узнаете, как запустить ноду, выбрать монету и получать вознаграждения — спокойно, по шагам и без риска запутаться.</p></div>
+      <div class="stats"><div><strong>4</strong><span>простых шага<br>до запуска</span></div><div><strong>24/7</strong><span>работает ваша<br>нода</span></div><div><strong>0</strong><span>скрытых<br>условий</span></div></div>
+    </section>
+
+    <section class="guide" id="install">
+      <div class="section-wrap"><p class="section-label">02 — первые шаги</p><h2>Запуск начинается<br>с <em>простого.</em></h2></div>
+      <div class="steps section-wrap">
+        <article><span class="step-no">01</span><div class="step-icon">⌘</div><h3>Как установить</h3><p>Выберите способ: облачный сервер или домашний компьютер. Покажем требования и проведём через установку.</p><a href="#faq">Открыть инструкцию <span>→</span></a></article>
+        <article id="setup"><span class="step-no">02</span><div class="step-icon">⚙</div><h3>Как настроить</h3><p>Подключите кошелёк, настройте безопасность и убедитесь, что всё работает как надо.</p><a href="#faq">Открыть инструкцию <span>→</span></a></article>
+        <article id="staking"><span class="step-no">03</span><div class="step-icon">◈</div><h3>Стейкинг</h3><p>Разберитесь, как заморозить монеты, поддерживать сеть и получать вознаграждения.</p><a href="#faq">Открыть инструкцию <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="coins section-wrap" id="coins">
+      <div class="coins-heading"><p class="section-label">03 — выбор сети</p><h2>Особые<br><em>монеты.</em></h2><p>Перспективные сети, на которые стоит обратить внимание. Каждая — со своей механикой и условиями участия.</p></div>
+      <div class="coin-grid">
+        <article class="coin-card celestia"><div class="coin-top"><span class="coin-symbol">T</span><span class="tag">MODULAR</span></div><h3>Celestia</h3><p>Первый модульный блокчейн для нового поколения приложений.</p><div class="coin-foot"><span>TIA</span><a href="#faq" aria-label="Подробнее о Celestia">↗</a></div></article>
+        <article class="coin-card cosmos"><div class="coin-top"><span class="coin-symbol">✦</span><span class="tag">INTERCHAIN</span></div><h3>Cosmos</h3><p>Экосистема независимых сетей, которые умеют общаться друг с другом.</p><div class="coin-foot"><span>ATOM</span><a href="#faq" aria-label="Подробнее о Cosmos">↗</a></div></article>
+        <article class="coin-card near"><div class="coin-top"><span class="coin-symbol">N</span><span class="tag">SHARDED</span></div><h3>NEAR</h3><p>Быстрая и удобная сеть, созданная для обычных пользователей.</p><div class="coin-foot"><span>NEAR</span><a href="#faq" aria-label="Подробнее о NEAR">↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="faq" id="faq"><div class="section-wrap faq-grid"><div><p class="section-label">04 — ответы</p><h2>Частые<br><em>вопросы.</em></h2><p class="faq-text">Не нашли своего ответа? Начните с базовых разделов — там мы разобрали всё, что понадобится новичку.</p></div><div class="questions"><details open><summary>Что такое нода?<span>−</span></summary><p>Нода — это компьютер, который хранит данные сети, проверяет операции и помогает блокчейну работать. За участие сеть может начислять вознаграждение.</p></details><details><summary>Сколько нужно денег для старта?<span>+</span></summary><p>Зависит от сети и способа запуска. Некоторые тестовые сети можно изучать бесплатно, а для стейкинга потребуется запас выбранной монеты.</p></details><details><summary>Можно ли запустить ноду на домашнем ПК?<span>+</span></summary><p>Да, если компьютер соответствует требованиям сети и стабильно подключён к интернету. Для постоянной работы обычно удобнее сервер.</p></details><details><summary>Какие есть риски?<span>+</span></summary><p>Изучайте условия выбранной сети, используйте защищённый кошелёк и никогда не передавайте seed-фразу третьим лицам.</p></details></div></div></section>
+  </main>
+  <footer><a class="logo" href="#top"><span class="logo-mark">i</span>информационный</a><p>Ваш спокойный старт в мире крипто-нод.</p><span>© 2026</span></footer>
+</body>
+</html>
